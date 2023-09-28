@@ -9,9 +9,9 @@ Version 0.9.0
 Usage: aster <option>
 
 Options:
-	-h, -help        Prints this help message.
-	-c, -count       Prints the total count of logs in the folder.
-	-p, -purge       Deletes all the logs in the folder.
+    -h, -help        Prints this help message.
+    -c, -count       Prints the total count of logs.
+    -p, -purge       Deletes all logs.
 """
 
 private var logsPathURL: URL {
