@@ -3,15 +3,15 @@ import Foundation
 private let cmdLineArgs = Array(CommandLine.arguments.dropFirst())
 
 private let helpMessage = """
-Aster - © 2023 Luki120
+Aster - © 2023-2024 Luki120
 A vanilla CLI tool to wipe the logs found under ⇝ Privacy ⇝ Analytics & Improvements ⇝ Analytics Data.
 Version 0.9.0
 Usage: aster <option>
 
 Options:
-    -h, -help        Prints this help message.
-    -c, -count       Prints the total count of logs.
-    -p, -purge       Deletes all logs.
+	-h, -help        Prints this help message.
+	-c, -count       Prints the total count of logs.
+	-p, -purge       Deletes all logs.
 """
 
 private var logsPathURL: URL {
